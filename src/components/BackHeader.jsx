@@ -18,7 +18,7 @@ const Header = ({ title, pageurl }) => {
         <BackBtn
           src={LeftArrow}
           alt="Back Btn"
-          onClick={() => goToPage({ pageurl })}
+          onClick={() => goToPage(pageurl)}
         />
         <Name>{title}</Name>
       </Container>

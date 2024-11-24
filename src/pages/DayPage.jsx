@@ -38,7 +38,7 @@ const DayPage = () => {
   return (
     <>
       <GlobalStyle />
-      <BackHeader />
+      <BackHeader title="12월 13일" pageurl={"/month"} />
       <Container>
         <Top>
           <Kkaebi>
